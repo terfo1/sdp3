@@ -32,7 +32,7 @@ class SonyPlayer{
 }
 class SonyAdapter implements Audio{
     SonyPlayer SonyPlayer;
-    public SonyAdapter(SonyPlayer Sonyplayer){
+    public SonyAdapter(SonyPlayer SonyPlayer){
         this.SonyPlayer= SonyPlayer;
     }
     public void startmusic(){
